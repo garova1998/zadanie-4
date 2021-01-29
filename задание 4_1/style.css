@@ -1,0 +1,87 @@
+
+.conteiner1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    
+}
+.conteiner1 .blok1{
+    width: 48%;
+    height: 100%;
+    background-color: blue;
+}
+.conteiner1 .blok2{
+    width: 48%;
+    height: 100%;
+    background-color: brown;
+    
+}
+
+.conteiner2{
+    margin-top: 4vh;
+    width: 100%;
+    height: 50vh;
+    background-color: green;
+}
+
+.conteiner3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4vh;
+    width: 100%;
+    height: 25vh;
+    
+}
+.conteiner3 .blok1{
+    height: 100%;
+    width: 30%;
+    background-color: lawngreen;
+}
+
+.conteiner3 .blok2{
+    height: 100%;
+    width: 30%;
+    background-color: gold;
+}
+
+.conteiner3 .blok3{
+    height: 100%;
+    width: 30%;
+    background-color: black;
+}
+
+@media(max-width: 300px)
+{ .conteiner3{
+    display: none;
+}
+.conteiner1{
+    display: block;
+    
+}
+.conteiner1 .blok1{
+    width: 100%;
+}
+.conteiner1 .blok2{
+    margin-top: 2vh;
+    width: 100%;
+    
+}
+.conteiner2{
+    height: 73vh;
+    margin-top: 14vh;
+}
+
+}
+@media(max-width: 500px)
+{ .conteiner3 .blok3{
+    display: none;
+}
+.conteiner3 .blok1{
+    width: 48%;
+}
+.conteiner3 .blok2{
+    width: 48%;
+}
+
+}
